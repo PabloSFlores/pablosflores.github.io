@@ -44,10 +44,6 @@ window.onload = async () => {
     imgRandomContainer.innerHTML += imgList
 }
 
-const random = () => {
-    location.reload()
-}
-
 //Forma del profesor
 // inputSearch.onkeyup = async (event) => {
 //     event.preventDefault();
