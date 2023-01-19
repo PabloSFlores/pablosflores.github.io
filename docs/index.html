@@ -1,0 +1,306 @@
+<!DOCTYPE html> <!-- Para que el navegador sepa que es un documento escrito en html 5 -->
+<html lang="en"> <!-- Idioma -->
+
+<head>
+    <!-- Instrucciones de comportamiento para el navegador -->
+    <meta charset="UTF-8"> <!-- Unicode -> Caracteres especiales -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajustar el tamaño al del dispositivo -->
+    <title>Repaso HTML</title>
+    <link rel="shortcut icon" href="./assets/img/gato.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css//bootstrap.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/img/perro.png" width="25" height="25" alt="VETERINARIA CANINA-MORELOS"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#social-network">Redes sociales</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-10">
+                <section id="home" class="shadow-sm p-3 mb-5 bg-body rounded">
+                    <h4 class="text-primary text-center">
+                        <i data-feather="github"></i> Bienvenido, conoce nuestros servicios
+                    </h4>
+                    <div class="container">
+                        <div class="row my-3">
+                            <div class="col-12 col-md-4 text-center">
+                                <img src="./assets/img/clinica.jpeg" class="img-thumbnail" width="300" height="200"
+                                    alt="VETERINARIA-MORELOS,CUIDADO,GATOS">
+                                <h5 class="my-2">Estética animal</h5>
+                                <small>Servicio de cuidado para tu masconta. Servicio de alta calidad</small>
+                            </div>
+                            <div class="col-12 col-md-4 text-center">
+                                <img src="./assets/img/gatoEstetoscopio.jpg" class="img-thumbnail" width="300"
+                                    height="200" alt="VETERINARIA-MORELOS,CUIDADO,GATOS">
+                                <h5 class="my-2">Consulta de mascotas</h5>
+                                <small>Consultas generales a precios acccesibles</small>
+                            </div>
+                            <div class="col-12 col-md-4 text-center">
+                                <img src="./assets/img/perroHuesos.jpg" class="img-thumbnail" width="300" height="200"
+                                    alt="VETERINARIA-MORELOS,CUIDADO,GATOS">
+                                <h5 class="my-2">Servicio especializado</h5>
+                                <small>Equipados con tecnologia moderna para darte los resultados mas precisos sobre la
+                                    salud de tu mascota</small>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="about" class="shadow-sm p-3 mb-5 bg-body rounded">
+                    <h4 class="text-primary text-center">
+                        <i data-feather="info"></i>
+                        Acerca de nosotros
+                    </h4>
+                    <div class="container">
+                        <p>
+                            Somos una empresa enfocada al cuidado de las mascotas,
+                            nuestro objetivo es que las mascotas tengan una vida feliz
+                        </p>
+                        <div class="row">
+                            <div class="col-12 col-md-6 text-center">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="./assets/img/voluntario.png" alt="DONACION" width="100" height="100">
+                                        <p class="text-pink">Amor por las mascotas, dame tu dinero</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <img src="./assets/img/perro.png" alt="DONACION" width="100" height="100">
+                                        <p class="text-brown">Manten a tus mascotas felices</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3776.065883102736!2d-99.19296438523493!3d18.839738187223904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd89fc498e949%3A0xb096cca5b6b825e8!2sVeterinaria%20Cl%C3%ADnica%20Canis!5e0!3m2!1ses!2smx!4v1673537975523!5m2!1ses!2smx"
+                                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="shadow-sm p-3 mb-5 bg-body rounded">
+                    <h4 class="text-primary text-center">
+                        <i data-feather="mail"></i>
+                        Contáctanos
+                    </h4>
+                    <div class="container">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Correo Electrónico</label>
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                            placeholder="ejemplo@ej.com" required>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Número de teléfono</label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="description" class="form-label">Mensaje</label>
+                                        <textarea rows="3" class="form-control" id="phone" description
+                                            placeholder="Amo su servicio..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-end">
+                                    <button class="btn-success p-3" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 col-md-2">
+                <aside>
+                    <div class="card">
+                        <img src="./assets/img/vacuna.jpg" class="card-img-top img-thumbnail border-danger-img"
+                            alt="VACUNA-VETERINARIA MORELOS">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Campaña de vacuna antirraábica</h5>
+                            <p class="card-text">
+                                Ven a vacunar a tu mascota de forma gratuita, estaremos vacunando a tu mascota contra la
+                                rabia
+                                <b>Desde el 1 de enero al 30 de enero del 2023</b>
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <footer class="text-center text-lg-start bg-light text-muted" id="social-network">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div>
+                    <a href="https://facebook.com/" target="_blank" class="me-4 text-reset">
+                        <i data-feather="facebook" class="text-primary"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="me-4 text-reset">
+                        <i data-feather="twitter" class="text-primary"></i>
+                    </a>
+                    <a href="https://instagram.com/" target="_blank" class="me-4 text-reset">
+                        <i data-feather="instagram" class="text-pink"></i>
+                    </a>
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Veterinaria Clinica Canis
+                            </h6>
+                            <p>
+                                Ven y conocenos, siguenos en nuestras redes sociales para conocer más acerca de nosotros
+                                y nuestros servicios
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Servicios
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Estética animal</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Atención médica</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Vacunación</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Accesorios y productos de higiéne para mascotas</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                            <p><i data-feather="home"></i> Emiliano Zapata, Av. Temixco</p>
+                            <p>
+                                <i data-feather="mail" class="text-danger"></i>
+                                veterinariacanina@gmail.com
+                            </p>
+                            <p><i data-feather="phone" class="text-success"></i> +52 7771112233</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">veterinariacanina.com</a>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- class="header" id="header" style="background-color: black; color: white;" -->
+    <!-- <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <p class="bg-danger">Hola mundo</p>
+                </div>
+                <div class="bg-primary col-4">
+                    .
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <li class="text-danger">
+            href es un evento de click, en este caso nos lleva a la section con el id home
+            <a href="#home">Inicio</a>
+            <a href="#about">Acerca de nosotros</a>
+            <a href="#contact">Contacto</a>
+        </li>
+    </nav>
+    <section id="home">
+        <h4>Inicio</h4>
+        <figure>
+            <img src="./assets/img/veterinaria.jpg" alt="VETERINARIA-CUIDA MASCOTAS-MASCOTAS" width="250" height="200">
+            alt es usado por google para los motores de busqueda de imagenes. 
+            El guión separa las palabras por las que se puede buscar
+        </figure>
+        <small>
+            VETERINARIA LA FE
+            ¡Que tu mascota esté sano y fuerte!
+            Mantén su cartilla de vacunas actualizado.
+            ¡Contamos con vacunas a domicilio!
+        </small>
+    </section>
+    <section id="about">
+        <h4>Acerca de nosotros</h4>
+        <p>
+            Su mascota se merece siempre la mejor atención,
+            por eso es también importante la proporción de cuidados que le ayudan
+            a prevenir enfermedades. En Veterinaria la Fe Ponemos a su disposición
+            servicios de prevención y tratamiento para que su mascota siempre este sana,
+            además con nuestro servicio a domicilio no tenga que preocuparse por salir de casa.
+        </p>
+    </section>
+    <section id="contact">
+        <form>
+            <label>Correo electrónico</label>
+            <input type="email" id="email" required>
+            <label>Teléfono</label>
+            <input type="phone" id="phone" required minlength="10">
+            <label>Mensaje</label>
+            <textarea rows="3"></textarea>
+            <button type="submit">Enviar</button>
+            <input type="color">
+        </form>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="bg-primary col-12 col-md-6 col-xl-4">
+                    Hola
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside>
+
+    </aside>
+    <footer>
+        <p>Created by UTEZ</p>
+    </footer> -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
