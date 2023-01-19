@@ -20,7 +20,7 @@ inputSearch.onkeyup = async (event) => {
         var imgUrl = response.data[i].images.original.url
         // console.log(imgUrl);
         var imgList = `<div class="col-2 shadow p-2 mx-2 my-2 bg-white rounded text-center">
-                        <img src="${imgUrl}" width="200" height="100">
+                        <img src="${imgUrl}" width="100%" height="100%">
                         </div>
                         `
         imgContainer.innerHTML += imgList
@@ -39,9 +39,13 @@ window.onload = async () => {
     console.log(response)
     var imgUrl = response.data.images.original.url
     var imgList = `<div class="col-12 shadow p-2 mx-2 my-2 bg-white rounded text-center">
-                    <img src="${imgUrl}" width="500" height="400">
+                    <img src="${imgUrl}" width="100%" height="100%">
                     </div>`
     imgRandomContainer.innerHTML += imgList
+}
+
+const random = () => {
+    location.reload()
 }
 
 //Forma del profesor
